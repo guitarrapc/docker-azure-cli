@@ -1,5 +1,10 @@
 FROM alpine
 
+# https://microbadger.com/labels
+ARG VCS_REF
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+    org.label-schema.vcs-url="e.g. https://github.com/microscaling/microscaling"
+
 ENV AZCLI=2.0.66
 
 RUN set -ex && \
