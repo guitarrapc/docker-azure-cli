@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV AZCLI=2.0.65
+ENV AZCLI=2.0.66
 
 RUN set -ex && \
     apk update && \
