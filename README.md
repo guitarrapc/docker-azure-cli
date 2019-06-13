@@ -1,5 +1,7 @@
 # guitarrapc/azure-cli
 
+[![CircleCI](https://circleci.com/gh/guitarrapc/docker-azure-cli.svg?style=svg)](https://circleci.com/gh/guitarrapc/docker-azure-cli)
+
 Dockerfile for azure-cli on Alpine Linux.
 
 ## Usage
